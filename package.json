@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "es6-promise": "^4.2.4",
+    "express": "^4.15.3",
+    "http-proxy-middleware": "^0.17.4",
+    "vconsole": "^3.1.0",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "scripts": {
+    "prod": "set NODE_ENV=production&&webpack -p --progress --colors --config=webpack.config.js",
+    "watch": "set NODE_ENV=dev&&webpack --watch --progress --colors --config=webpack.config.js",
+    "dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.5.1",
+    "autoprefixer": "^7.2.3",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cheerio": "^1.0.0-rc.2",
+    "exports-loader": "^0.6.4",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jquery": "^1.12.4",
+    "script-loader": "^0.7.2",
+    "stats-webpack-plugin": "^0.6.1",
+    "webpack": "^3.10.0",
+    "webpack-notifier": "^1.5.0"
+  }
+}
